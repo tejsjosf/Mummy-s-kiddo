@@ -125,4 +125,47 @@ Jeremy Bowers is the Murderer.
 THE FINAL SOLUTION
  ![image](https://github.com/user-attachments/assets/e2e7d863-4c8b-49db-9895-f0c9b7910954)
 
+ Code 12:
+ INSERT INTO solution VALUES (1, 'Jeremy Bowers'); 
+SELECT value FROM solution;
 
+
+
+Code 13:
+SELECT *
+FROM interview
+WHERE person_id = "67318";
+
+
+
+Code 14:
+
+SELECT *
+FROM drivers_license
+WHERE gender = "female"
+	AND hair_color = "red"
+	AND height BETWEEN 65 AND 67
+	AND car_make = "Tesla"
+	AND car_model = "Model S";
+
+ Code 15:
+SELECT *
+FROM person
+WHERE license_id IN ("202298", "291182", "918773");
+
+
+code 16:
+
+SELECT *
+FROM personSELECT 
+	person_id, 
+    event_name, 
+    COUNT(*) AS event_count
+FROM facebook_event_checkin
+WHERE person_id IN ("78881", "90700", "99716")
+GROUP BY person_id, event_name;
+WHERE license_id IN ("202298", "291182", "918773");
+
+Code 17:
+INSERT INTO solution VALUES (1, 'Miranda Priestly');
+SELECT value FROM solution;
