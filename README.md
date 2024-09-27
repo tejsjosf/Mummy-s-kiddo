@@ -119,15 +119,13 @@ WHERE person_id IN ("51739", "67318");
 Output:
 ![image](https://github.com/user-attachments/assets/791b6147-6cd3-4a9d-8a35-5ed9dcfb27a4)
 
- 
-Jeremy Bowers is the Murderer.
+ Jeremy Bowers is the Murderer.
 
-THE FINAL SOLUTION
- ![image](https://github.com/user-attachments/assets/e2e7d863-4c8b-49db-9895-f0c9b7910954)
 
  Code 12:
  INSERT INTO solution VALUES (1, 'Jeremy Bowers'); 
 SELECT value FROM solution;
+output:![img 12](https://github.com/user-attachments/assets/2e167f14-0a96-4db6-8d7a-ce14d0f7804e)
 
 
 
@@ -135,6 +133,8 @@ Code 13:
 SELECT *
 FROM interview
 WHERE person_id = "67318";
+Output:![img 13](https://github.com/user-attachments/assets/172c1b7c-d1d0-4233-9afb-ee1f356156d9)
+
 
 
 
@@ -148,10 +148,15 @@ WHERE gender = "female"
 	AND car_make = "Tesla"
 	AND car_model = "Model S";
 
+ output![img 14](https://github.com/user-attachments/assets/b9a6d1eb-080a-472e-bf3b-173a62765882)
+
+
  Code 15:
 SELECT *
 FROM person
 WHERE license_id IN ("202298", "291182", "918773");
+Output:![img 15](https://github.com/user-attachments/assets/5ff68d9f-41e0-4572-80c6-06a519e3a409)
+
 
 
 code 16:
@@ -166,6 +171,13 @@ WHERE person_id IN ("78881", "90700", "99716")
 GROUP BY person_id, event_name;
 WHERE license_id IN ("202298", "291182", "918773");
 
+output:![img 16](https://github.com/user-attachments/assets/b5528dbb-2410-4a96-abd2-10b9b86781c5)
+
+
 Code 17:
 INSERT INTO solution VALUES (1, 'Miranda Priestly');
 SELECT value FROM solution;
+output:![img 17](https://github.com/user-attachments/assets/8fd50cb0-a671-4347-8e8f-988eba03b3e6)
+![img 18](https://github.com/user-attachments/assets/c6a25b87-6ab4-4d68-bf1a-66e7343e0ee2)
+
+
